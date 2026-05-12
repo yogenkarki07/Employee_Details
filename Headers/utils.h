@@ -4,7 +4,7 @@
 #include <string>
 #include "globals.h"
 
-void HighestPaidEmployee() {
+inline void HighestPaidEmployee() {
     int index = 0; // Assume first person as the highest paid employee
 
     for ( int i = 0; i < allEmployees.size(); i++ ) {
@@ -21,7 +21,7 @@ void HighestPaidEmployee() {
     cout << "+++++++++++++++++++++++++++++++++++" << endl;
 }
 
-void LowestPaidEmployee() {
+inline void LowestPaidEmployee() {
     int index = 0; // Assume first person as the lowest paid employee
     for ( int i = 0; i < allEmployees.size(); i++ ) {
         if ( allEmployees[i].annual_salary < allEmployees[index].annual_salary ) {

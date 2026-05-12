@@ -13,7 +13,7 @@ using namespace std;
         long annual_salary {};
     };
 
-    vector<employee> allEmployees = {
+inline vector<employee> allEmployees = {
         {"john", "Smith", 45, "surgeon", 280000},
         {"Sarah", "johnson", 32, "Nurse", 75000},
         {"Micheal", "Brown", 50, "Doctor", 190000},
